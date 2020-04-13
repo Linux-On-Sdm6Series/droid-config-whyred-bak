@@ -1,20 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for lavender HW Adaptation
-Name: jolla-hw-adaptation-lavender
+Description: Pattern with packages for whyred HW Adaptation
+Name: jolla-hw-adaptation-whyred
 Requires:
-- droid-hal-lavender
-- droid-hal-lavender-detritus
-- droid-hal-lavender-img-boot
-- droid-hal-lavender-kernel-modules
-- droid-config-lavender-sailfish
-- droid-config-lavender-pulseaudio-settings
-- droid-config-lavender-policy-settings
-- droid-config-lavender-preinit-plugin
-- droid-config-lavender-flashing
-- droid-config-lavender-bluez5
-- droid-hal-version-lavender
+- droid-hal-whyred
+- droid-hal-whyred-detritus
+- droid-hal-whyred-img-boot
+- droid-hal-whyred-kernel-modules
+- droid-config-whyred-sailfish
+- droid-config-whyred-pulseaudio-settings
+- droid-config-whyred-policy-settings
+- droid-config-whyred-preinit-plugin
+- droid-config-whyred-flashing
+- droid-config-whyred-bluez5
+- droid-hal-version-whyred
 
 # Hybris packages
 - libhybris-libEGL
@@ -82,5 +82,5 @@ Requires:
 #- nfcd-binder-plugin
 #- jolla-settings-system-nfc
 
-Summary: Jolla HW Adaptation lavender
+Summary: Jolla HW Adaptation whyred
 

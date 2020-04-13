@@ -16,5 +16,5 @@ TimeoutSec=10
 [Install]
 WantedBy=local-fs.target
 
-# From ./out/target/product/lavender/vendor/etc/fstab.qcom :
+# From ./out/target/product/whyred/vendor/etc/fstab.qcom :
 # /dev/block/bootdevice/by-name/system     /                      ext4   ro,barrier=1,discard                             wait,avb

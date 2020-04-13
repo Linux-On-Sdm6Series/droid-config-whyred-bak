@@ -3,7 +3,7 @@ Description=Droid mount for /vendor
 Before=local-fs.target systemd-modules-load.service
 
 [Mount]
-What=/dev/mmcblk0p64
+What=/dev/mmcblk0p62
 Where=/vendor
 Type=ext4
 Options=ro,barrier=1
@@ -16,5 +16,5 @@ TimeoutSec=10
 [Install]
 WantedBy=local-fs.target
 
-# From ./out/target/product/lavender/vendor/etc/fstab.qcom :
+# From ./out/target/product/whyred/vendor/etc/fstab.qcom :
 # /dev/block/bootdevice/by-name/vendor         /vendor            ext4    ro,barrier=1                               wait,recoveryonly

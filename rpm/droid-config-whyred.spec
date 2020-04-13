@@ -1,11 +1,11 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
-%define device lavender
+%define device whyred
 %define vendor xiaomi
 
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi Note 7
+%define device_pretty Redmi Note 5
 
 # Community HW adaptations need this
 %define community_adaptation 1
